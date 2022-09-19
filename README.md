@@ -15,13 +15,13 @@ toda essa tabela de treinos para o usuário.
 
 # Objetivos
 
-# Geral
+#Geral
 
 Desenvolver um aplicativo que controle os dados da tabela de
 treinamento dos usuarios, afim de facilitar a visualização dessas informações
 no decorrer dos treinos.
 
-# Específicos
+#Específicos
 
 • Estudar o desenvolvimento de sistemas para android.
 • Manter uma base de dados com figuras e exemplos de como é feito
@@ -30,3 +30,8 @@ cada exercício a exibir para o usuário.
 usuário.
 
 # Telas
+
+![alt text](https://github.com/hamiequeiroz/personal-mobile/blob/master/res/drawable-hdpi/Banco%20de%20Dados.PNG?raw=true)
+![alt text](https://github.com/hamiequeiroz/personal-mobile/blob/master/res/drawable-hdpi/Pagina%20Inicial%20App.PNG?raw=true)
+![alt text](https://github.com/hamiequeiroz/personal-mobile/blob/master/res/drawable-hdpi/Guia%20de%20Exercicios.PNG?raw=true)
+![alt text](https://github.com/hamiequeiroz/personal-mobile/blob/master/res/drawable-hdpi/Treinamentos.PNG?raw=true)
