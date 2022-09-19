@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Aplicativo para Controle de Treinos da Academia</string>
+    <string name="app_name">Personal  Mobile</string>
+    <string name="titulo">Tipos de Exercícios</string>
+    <string-array name="DiadaSemana">
+        <item >Segunda-Feira</item>
+        <item >Terça-Feira</item>
+        <item >Quarta-Feira</item>
+        <item >Quinta-Feira</item>
+        <item >Sexta-Feira</item>
+        <item >Sábado-Feira</item>
+        
+    </string-array>
+    
+    <string-array name="tipos">
+        <item >Ombros</item>
+        <item >Peito</item>
+        <item >Abdôme</item>
+        <item >Costas</item>
+        <item >Pernas</item>
+        <item >Bíceps</item>
+        <item >Antebraço</item>
+        <item >Tríceps</item>
+        
+    </string-array>
+
+</resources>

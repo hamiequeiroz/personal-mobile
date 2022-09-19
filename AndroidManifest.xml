@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.uea.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AcademiaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ListadeTreinos"></activity>
+        <activity android:name="ListaTreinosSegunda"></activity>
+        <activity android:name="ListaExercicioOmbros"></activity>
+        <activity android:name="ListaExercicioPeito"></activity>
+        <activity android:name="ListaExercicioAbdome"></activity>
+        <activity android:name="ListaExercicioAntebraco"></activity>
+        <activity android:name="ListaExercicioBraco"></activity>
+        <activity android:name="ListaExercicioCostas"></activity>
+        <activity android:name="ListaExercicioPernas"></activity>
+        <activity android:name="ListaExercicioTricpes"></activity>
+        <activity android:name=".ListaImagensOmbros"></activity>
+        <activity android:name="ListaImagensPeito"></activity>
+        <activity android:name="cadastrar"></activity>
+        <activity android:name="treinamento"></activity>
+        <activity android:name="ListaImagensAbodome"></activity>
+        <activity android:name="ListaImagensCostas"></activity>
+        <activity android:name="ListaImagensPernas"></activity>
+        <activity android:name="ListaImagensBraco"></activity>
+        <activity android:name="ListaImagensAntebraco"></activity>
+        <activity android:name="ListaImagensTriceps"></activity>
+        <activity android:name="ListaTreinosTerca"></activity>
+        <activity android:name="ListaTreinosQuarta"></activity>
+        <activity android:name="ListaTreinosQuinta"></activity>
+        <activity android:name="ListaTreinosSexta"></activity>
+        <activity android:name="ListaTreinosSabado"></activity>
+    </application>
+
+</manifest>

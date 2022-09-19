@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.29" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="375dp"
+            android:layout_height="556dp"
+            android:src="@drawable/principal" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="13dp"
+            android:text="Frases de Maromba:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_x="7dp"
+            android:layout_y="36dp"
+            android:text="&apos;De nada adianta seu esforço, sem antes você acreditar no que está fazendo..&apos;" />
+
+        <Button
+            android:id="@+id/btTreinar"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="114dp"
+            android:text="Treinamento" />
+
+        <Button
+            android:id="@+id/btExercicios"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="170dp"
+            android:text="Guia de Exercicios" />
+
+        <Button
+            android:id="@+id/btAvaliacao"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="228dp"
+            android:text="Avaliação Física" />
+
+        <Button
+            android:id="@+id/btPersonal"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="284dp"
+            android:text="Personal Mobile - Dicas" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="44dp"
+            android:layout_y="350dp" >
+        </RadioGroup>
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="33dp"
+            android:layout_y="405dp"
+            android:text="ToggleButton"
+            android:checked="True"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_x="94dp"
+            android:layout_y="399dp"
+            android:text="Deseja Recerber Notificações da Frases do Dia" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
